@@ -6,20 +6,34 @@ body {
   margin: 0;
 }
 
-#header-img {
-  height: 30px;
-}
-
 #nav-box {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
-  background-color: #eee;
+  height: 75px;
+  background-color: blue;
+}
+
+#header-img {
+  position: inherit;
+  height: 34px;
+  top: 20px;
+  left: 40px;
+}
+
+#nav-bar {
+  position: inherit;
+  top: 30px;
+  right: 90px;
+}
+
+a.nav-link {
+  color: white;
+
 }
 
 .box {
-  position: relative;
-  top: 100px;
+  margin-top: 80px;
 }
 
 #Sign_Up {
@@ -36,9 +50,9 @@ body {
   border: 2px solid black;
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   a {
     display: flex;
     flex-direction: column;
   }
-}
+}*/
