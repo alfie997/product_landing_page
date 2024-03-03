@@ -1,6 +1,9 @@
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 #header-img {
@@ -14,10 +17,13 @@ body {
   background-color: #eee;
 }
 
-#Sign_up {
-  font-family: inherit;
+.box {
   position: relative;
-  top: auto;
+  top: 100px;
+}
+
+#Sign_Up {
+  font-family: inherit;
   text-align: center;
 }
 
