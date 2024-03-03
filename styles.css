@@ -1,6 +1,33 @@
-nav {
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#header-img {
+  height: 30px;
+}
+
+#nav-box {
   position: fixed;
   top: 0px;
+  width: 100%;
+  background-color: #eee;
+}
+
+#Sign_up {
+  font-family: inherit;
+  position: relative;
+  top: auto;
+  text-align: center;
+}
+
+#Pricing p {
+  display: block;
+  white-space: pre;
+}
+
+#Pricing div {
+  border: 2px solid black;
 }
 
 @media (max-width: 400px) {
