@@ -11,10 +11,22 @@ body {
   top: 0;
   width: 100%;
   height: 75px;
-  background-color: blue;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #header-img {
+  height: 34px;
+  padding-left: 40px;
+}
+
+#nav-bar {
+  width: 35%;
+}
+
+/*#header-img {
   position: inherit;
   height: 34px;
   top: 20px;
@@ -24,12 +36,13 @@ body {
 #nav-bar {
   position: inherit;
   top: 30px;
-  right: 90px;
-}
+  right: 60px;
+}*/
 
 a.nav-link {
-  color: white;
-
+  color: inherit;
+  text-decoration: none;
+  margin-left: 5vw;
 }
 
 .box {
@@ -39,6 +52,21 @@ a.nav-link {
 #Sign_Up {
   font-family: inherit;
   text-align: center;
+}
+
+#email {
+  padding: 6px 110px 5px 5px;
+}
+
+#submit {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 5px 20px 5px 20px;
+  border: 0;
+  border-radius: 0;
+  background-color: #f1c40f;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
 #Pricing p {
