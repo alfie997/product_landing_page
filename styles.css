@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 5;
+  z-index: 1;
 }
 
 #header-img {
@@ -50,10 +50,17 @@ a.nav-link {
 }
 
 .box {
-  position: relative;
-  width: auto;
+  width: 100%;
   height: 100%;
   margin-top: 80px;
+}
+
+p {
+  display: block;
+}
+
+section {
+  width: 100%;
 }
 
 #Sign_Up {
@@ -85,7 +92,6 @@ a.nav-link {
 }
 
 #Features h2, #Features p {
-  position: relative;
   top: 100px;
   left: 200px;
 }
