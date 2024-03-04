@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 5;
 }
 
 #header-img {
@@ -23,7 +24,10 @@ body {
 }
 
 #nav-bar {
-  width: 35%;
+  padding-right: 140px;
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /*#header-img {
@@ -46,6 +50,9 @@ a.nav-link {
 }
 
 .box {
+  position: relative;
+  width: auto;
+  height: 100%;
   margin-top: 80px;
 }
 
@@ -67,6 +74,20 @@ a.nav-link {
   background-color: #f1c40f;
   cursor: pointer;
   margin-top: 15px;
+}
+
+.icons {
+  color: orange;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 300px;
+}
+
+#Features h2, #Features p {
+  position: relative;
+  top: 100px;
+  left: 200px;
 }
 
 #Pricing p {
