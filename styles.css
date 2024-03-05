@@ -30,19 +30,6 @@ body {
   overflow: hidden;
 }
 
-/*#header-img {
-  position: inherit;
-  height: 34px;
-  top: 20px;
-  left: 40px;
-}
-
-#nav-bar {
-  position: inherit;
-  top: 30px;
-  right: 60px;
-}*/
-
 a.nav-link {
   color: inherit;
   text-decoration: none;
@@ -53,14 +40,6 @@ a.nav-link {
   width: 100%;
   height: 100%;
   margin-top: 80px;
-}
-
-p {
-  display: block;
-}
-
-section {
-  width: 100%;
 }
 
 #Sign_Up {
@@ -91,9 +70,30 @@ section {
   top: 300px;
 }
 
-#Features h2, #Features p {
-  top: 100px;
-  left: 200px;
+/*#Features {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}*/
+
+#Features {
+  position: relative;
+  left: 20%;
+}
+
+#How_It_Works {
+  position: relative;
+  top: 80%;
+  left: 32%;
+}
+
+#Pricing {
+  position: relative;
+  top: 480px;
+}
+
+#Pricing input {
+  font-weight: normal;
 }
 
 #Pricing p {
