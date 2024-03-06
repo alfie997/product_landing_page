@@ -37,9 +37,13 @@ a.nav-link {
 }
 
 .box {
-  width: 100%;
+  position: relative;
+  border: 1px solid red;
+  max-width: 1000px;
   height: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Sign_Up {
@@ -62,29 +66,33 @@ a.nav-link {
   margin-top: 15px;
 }
 
-.icons {
-  color: orange;
+#Features {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 300px;
+  top: 230px;
+  height: 300px;
+  /*left: 20%;*/
 }
 
-/*#Features {
+.icons {
+  color: darkorange;
   position: absolute;
-  top: 40%;
-  left: 20%;
-}*/
+  top: 20px;
+  left: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
-#Features {
-  position: relative;
-  left: 20%;
+h2, p {
+  margin-left: 20%;
 }
 
 #How_It_Works {
-  position: relative;
-  top: 80%;
-  left: 32%;
+  position: absolute;
+  top: 90%;
+  left: 22%;
 }
 
 #Pricing {
