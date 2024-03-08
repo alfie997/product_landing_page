@@ -38,7 +38,6 @@ a.nav-link {
 
 .box {
   position: relative;
-  border: 1px solid red;
   max-width: 1000px;
   height: 100%;
   margin-top: 60px;
@@ -65,11 +64,11 @@ a.nav-link {
   background-color: #f1c40f;
   cursor: pointer;
   margin-top: 15px;
-  transition: 1s;
 }
 
 #submit:hover {
   background-color: orange;
+  transition: background-color 1s;
 }
 
 #Features {
@@ -115,7 +114,7 @@ a.nav-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 15px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -171,16 +170,61 @@ footer {
   background-color: #ddd;
   width: 100%;
   height: 80px;
-  text-align: end;
+  text-align: right;
+}
+
+span {
+  position: relative;
+  top: 20px;
+  right: 20px;
 }
 
 footer a {
-  color: inherit;
+  color: initial;
   text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+footer p {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 5px 0 0 0;
 }
 
 @media (max-width: 800px) {
   #Pricing {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .tenor {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .bass {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #nav-box {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  #Features {
+    text-align: center;
+  }
+
+  #Features h2, #Features p {
+    margin: 0;
+  }
+
+  .icons {
+    display: none;
   }
 }
