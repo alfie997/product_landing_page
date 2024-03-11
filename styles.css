@@ -47,6 +47,7 @@ a.nav-link {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 360px;
+  padding-right: 10px;
 }
 
 #Sign_Up {
@@ -213,13 +214,28 @@ footer p {
 }
 
 @media (max-width: 650px) {
-  #nav-bar {
+  #nav-box {
     border: 1px solid red;
+    height: 140px;
   }
 
-  #nav-bar a {
+  #header-img {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  #nav-bar {
     display: block;
+  }
+
+  a.nav-link {
+    display: inherit;
     text-align: center;
+  }
+
+  .box {
+    margin-top: 150px;
   }
 }
 
