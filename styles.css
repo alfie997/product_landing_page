@@ -24,16 +24,19 @@ body {
 }
 
 #nav-bar {
-  padding-right: 140px;
-  width: 30%;
-  /*white-space: nowrap;*/
-  overflow: hidden;
+  width: 40%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /*white-space: nowrap;
+  overflow: hidden;*/
 }
 
 a.nav-link {
   color: inherit;
   text-decoration: none;
-  margin-left: 5vw;
+  display: inline;
 }
 
 .box {
@@ -210,21 +213,17 @@ footer p {
 }
 
 @media (max-width: 650px) {
-  #nav-box {
-    color: red;
-    height: 200px;
+  #nav-bar {
+    border: 1px solid red;
   }
 
-  #nav-bar {
+  #nav-bar a {
     display: block;
     text-align: center;
-    padding: 0;
-    width: 100%;
-    height: 20%;
   }
 }
 
-@media (max-width: 550px) {
+/*@media (max-width: 550px) {
   #Features {
     text-align: center;
   }
@@ -236,4 +235,4 @@ footer p {
   .icons {
     display: none;
   }
-}
+}*/
