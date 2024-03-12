@@ -33,7 +33,7 @@ body {
   overflow: hidden;*/
 }
 
-a.nav-link {
+#nav-bar a {
   color: inherit;
   text-decoration: none;
   display: inline;
@@ -79,7 +79,6 @@ a.nav-link {
   top: 120px;
   height: 300px;
   padding-right: 10px;
-  /*left: 20%;*/
 }
 
 .icons {
@@ -109,6 +108,8 @@ a.nav-link {
 
 #How_It_Works iframe {
   border: 0;
+  width: 560px;
+  height: 315.2px;
 }
 
 #Pricing {
@@ -215,7 +216,6 @@ footer p {
 
 @media (max-width: 650px) {
   #nav-box {
-    border: 1px solid red;
     height: 85px;
   }
 
@@ -230,7 +230,7 @@ footer p {
     width: 60%;
   }
 
-  a.nav-link {
+  #nav-bar a {
     display: inherit;
     text-align: center;
     margin-bottom: 5px;
@@ -265,10 +265,17 @@ footer p {
   }
 }
 
+@media (max-width: 560px) {
+  #How_It_Works iframe {
+    width: 100%;
+  }
+}
+
 @media (max-width: 550px) {
   #Features {
     text-align: center;
     padding: 0;
+    margin-bottom: 20px;
   }
 
   #Features h2, #Features p {
