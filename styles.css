@@ -47,7 +47,6 @@ a.nav-link {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 360px;
-  padding-right: 10px;
 }
 
 #Sign_Up {
@@ -79,6 +78,7 @@ a.nav-link {
   position: relative;
   top: 120px;
   height: 300px;
+  padding-right: 10px;
   /*left: 20%;*/
 }
 
@@ -216,39 +216,70 @@ footer p {
 @media (max-width: 650px) {
   #nav-box {
     border: 1px solid red;
-    height: 140px;
+    height: 85px;
   }
 
   #header-img {
     height: auto;
-    width: 100%;
-    padding: 0;
+    width: 45%;
+    padding: 10px 0 0 20px;
   }
 
   #nav-bar {
     display: block;
+    width: 60%;
   }
 
   a.nav-link {
     display: inherit;
     text-align: center;
+    margin-bottom: 5px;
   }
 
   .box {
     margin-top: 150px;
   }
+
+  #Features {
+    top: 90px;
+  }
 }
 
-/*@media (max-width: 550px) {
+@media (max-width: 600px) {
+  #nav-box {
+    display: block;
+    height: 130px;
+    text-align: center;
+  }
+
+  #header-img {
+    height: 34px;
+    width: auto;
+    padding: 15px 0 0 0;
+  }
+
+  #nav-bar {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 550px) {
   #Features {
     text-align: center;
+    padding: 0;
   }
 
   #Features h2, #Features p {
     margin: 0;
   }
 
+  #Features p {
+    margin-bottom: 70px;
+  }
+
   .icons {
     display: none;
   }
-}*/
+}
